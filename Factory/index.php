@@ -15,6 +15,10 @@ spl_autoload_register(function($class){
 $notification= NotificationFactory::BuildNotification("Likes");
 $notification->notify();
 
+//Likes Notification Content
+
 /** when new custom notification arrive **/
 $notification= NotificationFactory::BuildNotification("Custom");
 $notification->notify();
+
+//new Custom Notification Content
